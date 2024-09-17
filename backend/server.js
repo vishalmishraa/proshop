@@ -48,6 +48,8 @@ app.use(errorHandler); // if we reach this point, it means that there is an erro
 
 
 
-app.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//     console.log(`Server is running at http://localhost:${port}`);
+// });
+
+export default app;
